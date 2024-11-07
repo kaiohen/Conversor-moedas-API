@@ -1,0 +1,91 @@
+/* define cor de fundo da pagina */
+body {
+    background-color: #1d1429;
+  }
+  /* estilização do container */
+  .container{
+    height: 80vh;
+    margin-left: 5rem;
+    max-width: 30%;
+    background-color:  #7250cf;
+  }
+  /* estilização do botão */
+  .btn-primary {
+     cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.2) translateY(-5px);
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(214, 146, 235) ;
+    text-shadow: 0px 0px 5px rgb(216, 121, 224);
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+  }
+  
+  /* estilização do cursor quando passa pelo botão */
+  .btn-primary:hover {
+    transform: scale(1.1) translateY(-3px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(216, 121, 224);
+    color: white;
+    border: none;
+  }
+  /* alinha titulo e defini cor */
+  h1 {
+    color: rgb(255, 187, 187);
+    text-align: center;
+  }
+
+#moeda {
+    margin-top: 10rem;
+    position: absolute;
+    margin-left: 50rem;
+    font-size: 9em;
+    color: rgb(168, 122, 122);
+}
+
+  h2{
+    margin-top: 0.5%;
+    position: absolute;
+    margin-left: 35rem;
+    font-size: 9em;
+    color: rgb(152, 87, 182);
+}  
+  
+  /* Estilo básico do elemento select */
+  .form-select {
+    border-radius: 8px;
+    border: 2px solid #6c63ff;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+  }
+  img{
+    margin-top: 15rem;
+    margin-left: 35rem;
+    position: absolute;
+    width: 15%;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+ 
+#text{
+    margin-top: 32%;
+    color: wheat;
+    position: absolute;
+    margin-left: 8rem;    
+    position: absolute;
+}
+ 
+#login {
+    margin-top: 32%;
+    position: absolute;
+    margin-left: 16.5rem;    
+    position: absolute;
+}
