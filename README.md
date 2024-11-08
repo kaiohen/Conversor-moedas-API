@@ -11,6 +11,7 @@
   <a href="#descricao">Sobre</a> &#xa0; | &#xa0; 
   <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#explicacao">Explicação</a> &#xa0; | &#xa0;
+  <a href="#atencao">Atenção</a> &#xa0; | &#xa0;
   <a href="https://github.com/kaiohen" target="_blank">Criador</a>
 </p>
 
@@ -23,7 +24,7 @@
 - [conversor de moedas simples](https://github.com/kaiohen/Conversor-Moedas).
   
  ferramenta prática para realizar conversões rápidas e precisas. Com uma interface intuitiva, é ideal para quem precisa verificar valores em diferentes moedas de forma ágil.
- 
+ Aprimoramento de conversão, uso de consumo de API [exchangerate](https://www.exchangerate-api.com/), para as taxas de câmbios precisas e atualizadas em tempo real.
 </p>
 
 <h2 id="tecnologias">Tecnologias</h2>
@@ -34,6 +35,15 @@
   <li><img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript"></li>
   <li><img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5"></li>
 </ul>
+
+<h2 id="atencao">🚨Atenção🚨</h2>
+
+Chave de acesso a API [exchangerate](https://www.exchangerate-api.com/) tem duração limitada de aproximadamente 2 meses. 
+Inserira uma nova chave aqui:
+
+~~~ JavaScript
+const apikey = 'Exemple key access';
+~~~
 
 <h2 id="explicacao">Explicação</h2>
 
